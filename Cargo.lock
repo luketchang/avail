@@ -1383,7 +1383,9 @@ dependencies = [
  "frame-support",
  "frame-system",
  "home",
+ "nomad-base",
  "nomad-core",
+ "once_cell",
  "parity-scale-codec 2.3.1",
  "scale-info",
  "serde",
@@ -4633,7 +4635,6 @@ dependencies = [
  "signature 0.1.0",
  "sp-core",
  "sp-io",
- "sp-runtime",
  "sp-std",
  "tiny-keccak",
 ]
@@ -4649,12 +4650,10 @@ dependencies = [
  "getrandom 0.2.7",
  "parity-scale-codec 2.3.1",
  "parity-util-mem",
- "primitive-types 0.11.1",
  "scale-info",
  "signature 0.1.0",
  "sp-core",
  "sp-io",
- "sp-runtime",
  "sp-std",
  "tiny-keccak",
 ]
@@ -5911,7 +5910,6 @@ dependencies = [
  "impl-codec 0.6.0",
  "impl-rlp",
  "impl-serde 0.3.2",
- "scale-info",
  "uint 0.9.0",
 ]
 
